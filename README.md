@@ -1,6 +1,4 @@
-Sure, here's a simple README file for your movie recommendation system:
 
----
 
 # Movie Recommendation System
 
