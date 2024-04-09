@@ -18,25 +18,11 @@ This is a simple movie recommendation system that takes two inputs from the user
 4. Follow the prompts to input the genre of the movie and the number of recommendations desired.
 5. The system will generate a table displaying the recommended movies based on the inputs provided.
 
-## File Structure
-- `movie_recommendation.py`: Main script file containing the movie recommendation logic.
-- `requirements.txt`: File listing the required Python dependencies.
+## Key Features
 
-## Input Requirements
-- Genre of the movie: Enter the genre of the movie for which you want recommendations. Options include Action, Comedy, Drama, Horror, Romance, Sci-Fi, Thriller, etc.
-- Number of recommendations: Enter the number of movie recommendations you want to receive. The system will provide this many recommendations based on the input genre.
-
-## Output Format
-The system will output the recommended movies in the form of a table, including details such as movie title, release year, and rating.
-
-```
-| Title                | Year | Genre       | Rating |
-|----------------------|------|-------------|--------|
-| Movie 1              | 2020 | Action      | 8.5    |
-| Movie 2              | 2018 | Action      | 7.9    |
-| Movie 3              | 2019 | Action      | 8.2    |
-| ...                  | ...  | ...         | ...    |
-```
+- **Genre Specific Recommendations**: Allows users to specify the genre of movies they're interested in.
+- **Customizable Number of Recommendations**: Users can input the number of movies they want to receive recommendations for.
+- **Diverse Movie Selection**: Offers recommendations across various genres to cater to different tastes.
 
 ## Additional Notes
 - This system uses a simple recommendation algorithm based on user input. For more advanced recommendation techniques, consider exploring collaborative filtering or content-based filtering methods.
